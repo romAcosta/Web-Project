@@ -1,0 +1,96 @@
+:root{
+    --light-green:#affc83;
+    --sage:#e7fed9;
+    --bluegreen:#effff1;
+    --tan:#e0ddb3;
+    --brown: #9a886e;
+    
+}
+
+@font-face {
+    font-family: "spartan";
+    src: url("fonts/NewFont.ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "spartan-bold";
+    src: url("fonts/NewFont.ttf");
+    font-weight: bold;
+    
+}
+
+
+.backdrop{
+    background-color: var(--sage);
+
+}
+
+#quote-head{
+    text-align: center;
+    font-family: "spartan-bold";
+    font-size: 50px;
+    margin-left: 35%;
+    margin-right: 35%;
+
+}
+
+.navlinks{
+    table-layout: fixed;
+    color: black;
+    padding: 10px 10% 10px 10%;
+    font-size: 65%;
+    font-family: "spartan";
+    background-color: var(--brown);
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+a#endnav-left{
+    border-left: 2px solid black;
+    margin-left: 4%;
+}
+
+a#endnav-right{
+    border-right: 2px solid black;
+    margin-right: 4%;
+}
+
+#quote{
+    font-family: 'spartan';
+    padding: 2%;
+    background-color: var(--tan);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#slideshow{
+    margin: 10px 20% 10px 20%;
+    border: 8px solid var(--brown);
+    border-radius: 100px;
+}
+
+.header{
+    text-align: center;
+    font-family: "spartan-bold";
+    font-size: 50px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 5px;
+    background-color: var(--bluegreen);
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.content{
+    text-align: center;
+    font-family: "spartan";
+    font-size: 25px;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 5px;
+    background-color: var(--bluegreen);
+    border: 3px solid black;
+    border-radius: 5px;
+}
